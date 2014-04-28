@@ -20,7 +20,7 @@ Why someone would need this functionality I don't know.
 
 ### JN Instruction
 
-![alt text](150_300nslJPG "JN waveform")
+![alt text](150_300ns.JPG "JN waveform")
 
 ### JMP Instruction
 
@@ -41,7 +41,7 @@ are asserted, and what will the next state be?
   * IR, A=0, A<0
 
 4.  Why is it important that ACCLd signal be active during the execute state for the ADDI instruction?
-  *If ACCLd is not active during the execute state, the operand would fail to load into the accumulator
+  * If ACCLd is not active during the execute state, the operand would fail to load into the accumulator
   and would produce an erroneous result. 
   
 5.  What changes are necessary to the PRISM datapath to add another instruction (SUBI, which would 
@@ -66,27 +66,28 @@ Demonstrated to Capt. Silva in class on FPGA.
 ## A/B Functionality
 You have recieved a deeply encrypted message from a covert operative engaged in clandestine operations in 
 Russia. The operative has provided you with a PRISM ROM and the cipher text:
+
 `1111 1100 1111 BREAK 1011 1100 1110 1010` which you cleverly deduce is binary representing the hex characters:
 FCF BCEA. Upon programing your standard issue FPGA and a little experimentation you discover the following outputs
 when you manipulate the switches.
 
 ### Input 1010
-![alt text](E.JPG "E")
+![alt text](E.jpg "E")
 
 ### Input 1011
-![alt text](F.JPG "F")
+![alt text](F.jpg "F")
 
 ### Input 1100
-![alt text](A.JPG "A")
+![alt text](A.jpg "A")
 
 ### Input 1101
-![alt text](B.JPG "B")
+![alt text](B.jpg "B")
 
 ### Input 1110
-![alt text](C.JPG "C")
+![alt text](C.jpg "C")
 
 ### Input 1111
-![alt text](D.JPG "D")
+![alt text](D.jpg "D")
 
 ### Input OTHERS
 no change... 
